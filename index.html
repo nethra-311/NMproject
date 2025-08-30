@@ -7,7 +7,7 @@
   <style>
     body {
       font-family: Arial, sans-serif;
-      background: #f5f5f5;
+      background-color: #f0f2f5;
       margin: 0;
       padding: 0;
       color: #333;
@@ -15,24 +15,102 @@
     header {
       background-color: #007acc;
       color: white;
-      padding: 20px 0;
+      padding: 30px 0;
       text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+    header p {
+      margin: 5px 0 0;
+      font-size: 1.2em;
+      font-style: italic;
     }
     main {
       max-width: 800px;
       margin: 40px auto;
       background: white;
-      padding: 30px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      padding: 30px 40px;
       border-radius: 8px;
-    }
-    h1 {
-      margin-top: 0;
-    }
-    .qualification {
-      font-style: italic;
-      color: #555;
+      box-shadow: 0 0 15px rgba(0,0,0,0.1);
     }
     section {
-      margin-top: 20px;
+      margin-bottom: 30px;
+    }
+    h2 {
+      color: #007acc;
+      border-bottom: 2px solid #007acc;
+      padding-bottom: 5px;
+    }
+    ul {
+      list-style-type: disc;
+      padding-left: 20px;
+    }
+    a {
+      color: #007acc;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+      color: #777;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
 
+  <header>
+    <h1>Nethra</h1>
+    <p>MCA | Java Developer</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>About Me</h2>
+      <p>
+        Hello! I am Nethra, a dedicated Java developer with a Master of Computer Applications (MCA) degree. 
+        I specialize in building robust and scalable Java applications using modern frameworks and technologies.
+      </p>
+    </section>
+
+    <section>
+      <h2>Skills</h2>
+      <ul>
+        <li>Java SE & Java EE</li>
+        <li>Spring Boot & Spring MVC</li>
+        <li>Hibernate & JPA</li>
+        <li>RESTful API Development</li>
+        <li>SQL & NoSQL Databases</li>
+        <li>Version Control: Git & GitHub</li>
+        <li>Unit Testing with JUnit</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Projects</h2>
+      <ul>
+        <li><strong>Employee Management System:</strong> Developed a full-stack Java web application to manage employee records, featuring CRUD operations, authentication, and role-based access control.</li>
+        <li><strong>Online Bookstore:</strong> Built a Spring Boot REST API backend for an online bookstore with secure payment integration and inventory management.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:nethra@example.com">nethra@example.com</a></p>
+      <p>GitHub: <a href="https://github.com/nethra-311" target="_blank">github.com/nethra-311</a></p>
+      <p>LinkedIn: <a href="https://linkedin.com/in/nethra" target="_blank">linkedin.com/in/nethra</a></p>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2025 Nethra. All rights reserved.
+  </footer>
+
+</body>
+</html>
